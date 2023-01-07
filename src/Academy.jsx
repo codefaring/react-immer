@@ -27,9 +27,9 @@ export default function Academy() {
   const handleAdd = () => {
     const addName = prompt('추가할 수강생의 이름을 입력하세요');
     const addAge = prompt(`${addName} 수강생의 나이를 입력하세요`);
-    updateAcademy((academy) =>
-      academy.students.push({ name: addName, age: addAge })
-    );
+    updateAcademy((academy) => {
+      academy.students.push({ name: addName, age: addAge });
+    });
   };
   const handleDelete = () => {
     const name = prompt('어떤 수강생을 삭제하겠습니까?');
