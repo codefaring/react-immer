@@ -1,0 +1,15 @@
+.text {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+button {
+  margin: 0.4rem;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(74, 96, 222);
+}
